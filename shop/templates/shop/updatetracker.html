@@ -1,0 +1,27 @@
+{% extends 'shop/basic.html' %}
+
+{% block title %} Order Update {% endblock %}
+
+{% block body %} 
+    
+ <div class="container text-center my-5">
+    <h3>Your Item has reached on</h3><br>
+    <div class="row">
+         
+      <div class="col my-5">
+        <h5>{{text}}</h5>
+      </div>
+      <div class="col my-5">
+        
+           <h5>{{time}}</h5> 
+      </div>
+    </div>
+    <a href="/shop"><button type="button" class="btn btn-light" >Continue Shoping</button></a>
+
+  </div>
+
+  
+{% endblock %}
+
+
+
